@@ -10,15 +10,7 @@ import UIKit
 
 class DropItView: UIView
 {
-    private let gravity = UIGravityBehavior()
-    
-    
-    
-    private let collider: UICollisionBehavior = {
-        let collider = UICollisionBehavior()
-        collider.translatesReferenceBoundsIntoBoundary = true;
-        return collider
-    }()
+   private let dropBehavior = FallingObjectBehavior()
     
     
     private lazy var animator: UIDynamicAnimator = UIDynamicAnimator(referenceView: self)
@@ -26,14 +18,11 @@ class DropItView: UIView
     var animating: Bool = false{
         didSet {
             if animating{
-                animator.addBehavior(gravity)
-                animator.addBehavior(collider)
+                animator.addBehavior(dropBehavior)
                 
             } else{
-                animator.removeBehavior(gravity)
-                animator.removeBehavior(collider)
-                
-            }
+                animator.removeBehavior(dropBehavior)
+           }
         }
     }
     
@@ -54,7 +43,6 @@ class DropItView: UIView
         
         addSubview(drop)
         
-        gravity.addItem(drop)
-        collider.addItem(drop)
+        dropBehavior.addItem(item: drop)
     }
 }

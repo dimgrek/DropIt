@@ -14,6 +14,7 @@
 		A7AF3C3B1DFFFD53007C3C2A /* DropItView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF3C3A1DFFFD53007C3C2A /* DropItView.swift */; };
 		A7AF3C3D1DFFFD84007C3C2A /* DropItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF3C3C1DFFFD84007C3C2A /* DropItViewController.swift */; };
 		A7AF3C3F1E000E85007C3C2A /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF3C3E1E000E85007C3C2A /* UIKitExtensions.swift */; };
+		A7AF3C411E002774007C3C2A /* FallingObjectBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF3C401E002774007C3C2A /* FallingObjectBehavior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A7AF3C3A1DFFFD53007C3C2A /* DropItView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropItView.swift; sourceTree = "<group>"; };
 		A7AF3C3C1DFFFD84007C3C2A /* DropItViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropItViewController.swift; sourceTree = "<group>"; };
 		A7AF3C3E1E000E85007C3C2A /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		A7AF3C401E002774007C3C2A /* FallingObjectBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FallingObjectBehavior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				A7AF3C3A1DFFFD53007C3C2A /* DropItView.swift */,
+				A7AF3C401E002774007C3C2A /* FallingObjectBehavior.swift */,
 				A7AF3C3C1DFFFD84007C3C2A /* DropItViewController.swift */,
 				A7AF3C371DFFF8D6007C3C2A /* Supporting files */,
 				A7AF3C291DFFF8AA007C3C2A /* Main.storyboard */,
@@ -154,6 +157,7 @@
 				A7AF3C3D1DFFFD84007C3C2A /* DropItViewController.swift in Sources */,
 				A7AF3C3B1DFFFD53007C3C2A /* DropItView.swift in Sources */,
 				A7AF3C3F1E000E85007C3C2A /* UIKitExtensions.swift in Sources */,
+				A7AF3C411E002774007C3C2A /* FallingObjectBehavior.swift in Sources */,
 				A7AF3C261DFFF8AA007C3C2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
